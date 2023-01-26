@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
@@ -18,23 +19,163 @@
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="40sp"
+            android:layout_marginEnd="10dp"
+            android:text="0"
             android:textColor="@color/black"
-            android:text="0" />
+            android:textSize="40sp" />
     </LinearLayout>
 
     <com.google.android.material.divider.MaterialDivider
         android:layout_width="385dp"
         android:layout_height="wrap_content"
-        android:paddingStart="20dp"
-        android:paddingEnd="20dp"
-        app:dividerColor="#AAA4A4" />
+        app:dividerColor="#9E9696" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/white"
-        android:orientation="vertical">
+        android:layout_height="wrap_content"
+        android:background="@color/white">
 
+        <Button
+            android:id="@+id/button"
+            style="@style/OrangeButton"
+            android:background="@drawable/round_button"
+            android:text="ac" />
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/OrangeButton"
+            android:background="@drawable/round_button"
+            android:text="r" />
+
+        <Button
+            android:id="@+id/button3"
+            style="@style/OrangeButton"
+            android:background="@drawable/round_button"
+            android:text="%" />
+
+        <Button
+            android:id="@+id/button4"
+            style="@style/OrangeButton"
+            android:background="@drawable/round_button"
+            android:text="/" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <Button
+            android:id="@+id/button5"
+            style="@style/BlackButton"
+            android:background="@drawable/round_button"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/button6"
+            style="@style/BlackButton"
+            android:background="@drawable/round_button"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/button7"
+            style="@style/BlackButton"
+            android:background="@drawable/round_button"
+            android:text="9" />
+
+        <Button
+            android:id="@+id/button8"
+            style="@style/OrangeButton"
+            android:background="@drawable/round_button"
+            android:text="*" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <Button
+            android:id="@+id/button9"
+            style="@style/BlackButton"
+            android:background="@drawable/round_button"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/button10"
+            style="@style/BlackButton"
+            android:background="@drawable/round_button"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/button11"
+            style="@style/BlackButton"
+            android:background="@drawable/round_button"
+            android:text="6" />
+
+        <Button
+            android:id="@+id/button12"
+            style="@style/OrangeButton"
+            android:background="@drawable/round_button"
+            android:text="-" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <Button
+            android:id="@+id/button13"
+            style="@style/BlackButton"
+            android:background="@drawable/round_button"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/button14"
+            style="@style/BlackButton"
+            android:background="@drawable/round_button"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/button15"
+            style="@style/BlackButton"
+            android:background="@drawable/round_button"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/button16"
+            style="@style/OrangeButton"
+            android:background="@drawable/round_button"
+            android:text="+" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <Button
+            android:id="@+id/button17"
+            style="@style/OrangeButton"
+            android:background="@drawable/round_button" />
+
+        <Button
+            android:id="@+id/button18"
+            style="@style/OrangeButton"
+            android:background="@drawable/round_button"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/button19"
+            style="@style/OrangeButton"
+            android:background="@drawable/round_button"
+            android:text="," />
+
+        <Button
+            android:id="@+id/button20"
+            style="@style/EqualButton"
+            android:background="@drawable/round_button"
+            android:text="=" />
     </LinearLayout>
 </LinearLayout>
